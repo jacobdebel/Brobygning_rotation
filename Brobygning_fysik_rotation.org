@@ -1,0 +1,166 @@
+#+title: Rotation 
+#+author: Vibenshus Gymnasium
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: sky
+#+reveal_extra_options: slideNumber:"c/t",progress:true,transition:"slide",navigationMode:"default",history:false,center:true
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+
+* En cykel (og en bil)
+
+** Hvor hurtigt drejer hjulene rundt?
+
+#+BEGIN_EXPORT html
+<video controls width="600">
+<source src="./video/cykel.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+#+reveal: split
+
+Hvilke oplysninger har I brug for?
+
+#+attr_reveal: :frag (appear)
+- En formel med en forklaring?
+- Vinkler, grader og radianer?
+- Størrelsen på hjulene?
+- Omdrejninger pr. sekund?
+
+** Størrelser og formler
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+*Størrelser*
+| $T$      | Periode         |
+| $\omega$ | Vinkelhastighed |
+| $v$      | Hastighed/fart  |
+| $f$      | Frekvens        |
+| $O$      | Omkreds         |
+| $r$      | Radius          |
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+*Formler*
+- $f=\frac{1}{T}$
+- $\omega = \frac{2 \pi}{T}$
+- $\omega = 2 \pi f$
+- $O = 2 \pi r$
+- $v = \omega \cdot r$
+- $v = \frac{2 \pi r}{T} = \frac{O}{T}$
+#+reveal_html: </div>
+
+** Grader og radianer
+
+#+attr_html: :width 600px
+[[file:img/2021-04-19_16-00-05_screenshot.png]]
+
+** Hvor hurtigt drejer hjulene rundt?
+Udfør jeres beregninger.
+
+** Hvad er jeres resultater?
+
+* Vindmølle
+
+** Hvad er vingespidsernes fart?
+
+#+BEGIN_EXPORT html
+<video controls width="600">
+<source src="./video/horns_rev_2.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+#+reveal: split
+
+Hvilke oplysninger har I brug for?
+
+#+attr_reveal: :frag (appear)
+- Rotationshastighed(vinkelhastighed)?
+- Frem med jeres stopure(mobiler)!
+- Vingernes størrelse?
+- Vindmølleparken hedder *Horns rev 2*
+** Hvad er vingespidsernes fart?
+Udfør jeres beregninger.
+
+** Hvad er jeres resultater?
+
+* Satellit i geostationær bane
+
+** Hvor højt ligger en geostationær satellit over Jordens overflade?
+
+#+BEGIN_EXPORT html
+<video controls width="600">
+<source src="./video/geostationaer_bane.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+#+attr_reveal: :frag (appear)
+Hvad ser I?
+
+#+reveal: split
+
+Hvilke oplysninger har I brug for?
+
+#+attr_reveal: :frag (appear)
+- Noget baggrundsviden?
+- Nogle oplysninger om Jorden?
+- Nogle oplysninger om satellitten?
+  
+** Newtons gravitationslov + centripetalkraft
+$$F_G = G \cdot \frac{m\cdot M}{R^2}$$
+
+$$F_{res} = m \cdot a = m \cdot \omega^2\cdot r = m \cdot \frac{v^2}{r}$$
+* Gyroskop
+  
+
+#+DOWNLOADED: screenshot @ 2019-11-26 08:01:10
+#+attr_html: :width 300px
+[[file:img/2019-11-26_08-01-10_screenshot.png]]
+
+
+** En forklaring
+
+#+BEGIN_EXPORT html
+<video controls width="600">
+<source src="./video/Gyroscopic_Precession.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+
+* Rulle op ad bakke?
+
+#+DOWNLOADED: screenshot @ 2019-11-26 07:54:49
+#+attr_html: :width 600px
+[[file:img/2019-11-26_07-54-49_screenshot.png]]
+
+* En mærkelig dåse
+
+** Hvordan bygger man den selv?
+
+#+BEGIN_EXPORT html
+<video controls width="600">
+<source src="./video/How_To_Build_A_Rollback_Can.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+* Isbjørnenes klub
+
+
+#+DOWNLOADED: screenshot @ 2019-11-26 08:00:11
+#+attr_html: :width 600px
+[[file:img/2019-11-26_08-00-11_screenshot.png]]
+
+** The first rule of +Fight Club+ *Isbjørnenes klub*
+
+#+DOWNLOADED: https://media.newyorker.com/photos/5dbafcc91b4a6700085a7a9b/master/pass/Baker-FightClub.jpg @ 2020-10-19 15:18:41
+#+attr_html: :width 400px
+#+attr_latex: :width 7cm
+[[file:img/2020-10-19_15-18-41_Baker-FightClub.jpg]]
+
+
+#+attr_reveal: :frag (appear)
+- +You do not talk about Fight Club+
+- *Du må aldrig afsløre reglerne overfor nogen.*
+
+  
+** Hvor mange isbjørne er der?
+
+[[https://www.random.org/dice/?num=10]]
